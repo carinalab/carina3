@@ -1,0 +1,43 @@
+{
+  "name": "carinag",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://gitlab.com/kikret/carina-g.git",
+  "author": "Alexander Toscano Ricardo <kikret@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "export NODE_ENV=development && nodemon --watch lib --watch bin ./server.js",
+    "prod": "export NODE_ENV=production && nodemon --watch lib --watch bin ./server.js",
+    "test": "mocha",
+    "docs": "./node_modules/.bin/esdoc -c ./.esdoc.json",
+    "startReplica": "node ./build/startServer.js"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cookie": "^0.3.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "install": "^0.12.2",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-simple": "^0.5.5",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.9",
+    "morgan": "^1.9.1",
+    "nconf": "^0.10.0",
+    "npm": "^6.4.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "nodemon": "^1.18.6"
+  }
+}

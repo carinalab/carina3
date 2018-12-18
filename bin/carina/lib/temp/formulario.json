@@ -1,0 +1,66 @@
+[
+  {
+    "fecha": "10/2/2018",
+    "peticion":
+      "por favor me pueden informar cuando es la fecha de cierre convocatoria de los proyectos de investigación	",
+    "dependencia": "",
+    "respuesta": "La fecha de cierre es el 5 de diciembre de 2018	",
+    "observaciones": ""
+  },
+  {
+    "fecha": "11/2/2018",
+    "peticion":
+      "Necesito saber que papeles debo de tener en cuenta para presentar un proyecto de investigación",
+    "dependencia": "",
+    "respuesta":
+      "Se deben presentar los siguientes formatos diligenciados: a. Formato de proyecto de investigación y extensión: F2080 y b. Formato F2081",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/3/2018",
+    "peticion": "Cuál es la fecha de inicio del proyecto FE-002	",
+    "dependencia": "",
+    "respuesta": "La fecha de inicio del proyecto es 3 de junio de 20018",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/3/2018",
+    "peticion":
+      "Quien es el encargado de recepcionar los proyectos de extensión",
+    "dependencia": "",
+    "respuesta":
+      "Maria Perez es la persona encargada de recepcionar los proyectos de extensión",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/4/2018",
+    "peticion": "Cual es el horario de atención",
+    "dependencia": "",
+    "respuesta":
+      "Los horarios de atención son de Lunes a Viernes de 8 AM a 12 PM y de 2 PM a 5 PM",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/4/2018",
+    "peticion":
+      "Mi nombre es Angel Robledo, tengo un proyecto activo, por favor me puede enviar el código del proyecto",
+    "dependencia": "",
+    "respuesta": "El proyecto anombre de Angel Robledo tien el código FE-005",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/5/2018",
+    "peticion": "Existe un limite de dinero para cobrar un proyecto ?",
+    "dependencia": "",
+    "respuesta": "El límite es 5 salarios mínimos.",
+    "observaciones": ""
+  },
+  {
+    "fecha": "10/11/2018",
+    "peticion":
+      "Cuál es el porcentaje de gastos administrativos que se tiene por proyecto",
+    "dependencia": "",
+    "respuesta": "El porcentaje de gastos administrativos es 10%",
+    "observaciones": ""
+  }
+]
