@@ -1,0 +1,1278 @@
+{
+  "_id": "5c0844db72eed32c71463059",
+  "name": "Translate User Response to SDG",
+  "type": "CMEC",
+  "ius": "5c0844db26e50de4cd5fd9c6",
+  "cm": "5c0844db9b7c1c8519954427",
+  "mentalStates": [
+    {
+      "name": "input_is_processed",
+      "state": false
+    },
+    {
+      "name": "parser_is_done",
+      "state": false
+    },
+    {
+      "name": "sentence_is_splitted",
+      "state": false
+    },
+    {
+      "name": "tokenizer_is_loaded",
+      "state": false
+    },
+    {
+      "name": "sentence_is_processed",
+      "state": false
+    },
+    {
+      "name": "grammatical_gategory_of _the_input_word_is_checked",
+      "state": false
+    },
+    {
+      "name": "word_from_perceptor_is_read",
+      "state": false
+    },
+    {
+      "name": "SSM_buffer_is_loaded",
+      "state": false
+    },
+    {
+      "name": "recognition_judgments_is_encoded",
+      "state": false
+    },
+    {
+      "name": "input_fact_is_recognized",
+      "state": false
+    },
+    {
+      "name": "recognition_judment_is_triggered",
+      "state": false
+    },
+    {
+      "name": "recognition_inputs_is_loaded",
+      "state": false
+    },
+    {
+      "name": "SMM_buffer_loaded",
+      "state": false
+    },
+    {
+      "name": "lexical_buffered_is_loaded",
+      "state": false
+    },
+    {
+      "name": "lexical_buffer_as_belief_is_encoded",
+      "state": false
+    },
+    {
+      "name": "problem_domain_buffer_is_encoded",
+      "state": false
+    },
+    {
+      "name": "word_node_at_model_of_the_world_is_updated",
+      "state": false
+    },
+    {
+      "name": "word_node_at_model_of_the_world_is_encoded",
+      "state": false
+    },
+    {
+      "name": "grammatical_pattern_of_the_input_senteced_is_identified",
+      "state": false
+    },
+    {
+      "name": "grammatical_pattern_of_the_input_senteced_is_encoded",
+      "state": false
+    },
+    {
+      "name": "clause_is_processed _syntactically",
+      "state": false
+    },
+    {
+      "name": "noun_classification_process_is_done",
+      "state": false
+    },
+    {
+      "name": "NER_algorith_is_done",
+      "state": false
+    },
+    {
+      "name": "stopo_words_are_done",
+      "state": false
+    },
+    {
+      "name": "question_focus_is_done",
+      "state": false
+    },
+    {
+      "name": "question_generation_is_done",
+      "state": false
+    },
+    {
+      "name": "questions_on_subject_NPs_are_generated",
+      "state": false
+    },
+    {
+      "name": "questions_on_object_NPs_generated",
+      "state": false
+    }
+  ],
+  "goals": [
+    {
+      "goal": {
+        "_id": "5c0844db1be88d2c599fb622",
+        "name": "input_is_processed",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "input_is_processed"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db1be88d2c599fb623",
+        "name": "parser_is_done",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "parser_is_done"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db1be88d2c599fb625",
+        "name": "sentence_is_splitted",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "sentence_is_splitted"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db021a15ca0575b058",
+        "name": "tokenizer_is_loaded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "tokenizer_is_loaded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbc7467f17e2001c28",
+        "name": "sentence_is_processed",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "sentence_is_processed"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbd8ee3f0c58c593ce",
+        "name": "grammatical_gategory_of _the_input_word_is_checked",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "grammatical_gategory_of _the_input_word_is_checked"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db3fde56631cdaf9d0",
+        "name": "word_from_perceptor_is_read",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "word_from_perceptor_is_read"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbb2c78fbc5dee10ed",
+        "name": "SSM_buffer_is_loaded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "SSM_buffer_is_loaded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbb3c7c733b9b21401",
+        "name": "recognition_judgments_is_encoded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "recognition_judgments_is_encoded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbc7f84171b37f86bf",
+        "name": "input_fact_is_recognized",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "input_fact_is_recognized"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db98e7302fa13aaf84",
+        "name": "recognition_judment_is_triggered",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "recognition_judment_is_triggered"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db6f9d5576d80aef8c",
+        "name": "recognition_inputs_is_loaded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "recognition_inputs_is_loaded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db01e92dadbb79264b",
+        "name": "SMM_buffer_loaded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "SMM_buffer_loaded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbfec9a047a134936d",
+        "name": "lexical_buffered_is_loaded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "lexical_buffered_is_loaded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dba25dc80f4007a936",
+        "name": "lexical_buffer_as_belief_is_encoded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "lexical_buffer_as_belief_is_encoded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbfce09718598e5b31",
+        "name": "problem_domain_buffer_is_encoded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "problem_domain_buffer_is_encoded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbbad7db428526e444",
+        "name": "word_node_at_model_of_the_world_is_updated",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "word_node_at_model_of_the_world_is_updated"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db88f4fd422320e5aa",
+        "name": "word_node_at_model_of_the_world_is_encoded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "word_node_at_model_of_the_world_is_encoded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db83537e67d34438e6",
+        "name": "grammatical_pattern_of_the_input_senteced_is_identified",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "grammatical_pattern_of_the_input_senteced_is_identified"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844db984795126b3fc25f",
+        "name": "grammatical_pattern_of_the_input_senteced_is_encoded",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "grammatical_pattern_of_the_input_senteced_is_encoded"
+      }
+    },
+    {
+      "goal": {
+        "_id": "5c0844dbc0e92a4b446e6103",
+        "name": "clause_is_processed _syntactically",
+        "currentValue": false,
+        "targetValue": true,
+        "description": "clause_is_processed _syntactically"
+      }
+    }
+  ],
+  "productionRules": [
+    {
+      "rules": {
+        "_id": "5c0844dbb12d32c56407b6ca",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db1be88d2c599fb623"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbb12d32c56407b6cb",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db1be88d2c599fb624"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbb12d32c56407b6cc",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db1be88d2c599fb625"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "readWordByWordUsingLeftCornerParsing",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "detectingEndingOfSentences",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbbdb6f9bc3c17eefd",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db021a15ca0575b058"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "separationOfWordsFromOtherTextualElements",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "becomesAllThisElementInTokens",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db352313fe99a8c288",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc7467f17e2001c28"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db3c0826e7b8f55385",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbd8ee3f0c58c593ce"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f2",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f3",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f4",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f5",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f6",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f7",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbb2b6e51f3ea25c2f",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db3fde56631cdaf9d0"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "encodeWordAsInputFact",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "saveEncodedFactΦIntoSSM",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbe127913413cf4790",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbb2c78fbc5dee10ed"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "copyInputFactΦIntoSSMBufferAtBCPUInput",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnWithGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db1138b054fbeee89e",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbb3c7c733b9b21401"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "encodeANewBeliefWithJudgment",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "copyBeliefIntoBCPUPattern",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db23efa2cc427b3ca4",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc7f84171b37f86bf"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f7",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbbc50fbf296449f62",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db98e7302fa13aaf84"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "triggerAJudgment",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbf461be6e19f3be30",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db6f9d5576d80aef8c"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "loadInputFactΦFromBCPUInput",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "loadPatternFromPattern",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbf5439d6eb8c89b97",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db01e92dadbb79264b"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "retrieveBeliefFromSMMUsingBCPUInputAsCue",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "copyBeliefIntoSMMBuffer",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db924a75aea90b71ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbfec9a047a134936d"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "loadInputFactΦFromBCPUInput",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "copyInputFactΦIntoWordNodeBufferFieldAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbd356332ae1224755",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dba25dc80f4007a936"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "loadBeliefFromSMMBuffer",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "alterupdateTheIDOfInputFactFromWordNodeBufferWithConcat",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "alterAddField",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "alterUpdateNextWithNull",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "alterUpdateTypeSMUWithTipo",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbd54945f7e4e84a6c",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbfce09718598e5b31"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "retrieveBeliefFromWordNodeBufferFieldAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "copyBeliefIntoLexicalSTMAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db39ed17c573a2dc9f",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbbad7db428526e444"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "retrieveBeliefΦFromWordNodeBufferFieldAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db51301b4547f7caf8",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db88f4fd422320e5aa"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "retrieveBeliefΦFromLexicalBufferIsNullAsCue",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "loadBeliefFromWordNodeBufferFieldAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "alterUpdateNextWith",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "copyBeliefIntoLexicalSTMAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f8",
+            "accomplish": false
+          },
+          {
+            "action": "copyBeliefIntoWordNodeBufferFieldAtMoW",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dbbfe861b376460c9d",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db83537e67d34438e6"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844db6b44285b086f3a87",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844db984795126b3fc25f"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "encodeGrammaticalPatternAsFact",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "linkTokens",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "searchingProcessOfNounsInTheSentenceStructure",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "labelingProcessOfProperNounsNoProperNounsAndAdverbsInTheSentenceStructure",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "gettingTheOutputOfNounClassificationProcess",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "usingWhoWhomForPERSONOrORGANIZATIONOrWhereForLOCATION",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "usingTheQuestionWordHow",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "gettingTheOutputOfNounClassificationProcess",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "removeStopWordsFromTheSentence",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "usingWhoWhomForPERSONOrORGANIZATIONOrWhereForLOCATIONOrWhatForNOENTITY",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "identifyQuestionWord",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "selectionOfQuestionFocus",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "accomplishGoal",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "theFactoidWHQuestionIsAttachedToTheMainVerbOfTheSentence",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "theSubjectNPIsIdentified",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    },
+    {
+      "rules": {
+        "_id": "5c0844dba907fe0765e223ff",
+        "condition": {
+          "reasonState": {
+            "cm": "5c0844db9b7c1c851995442f",
+            "goal": "5c0844dbc0e92a4b446e6103"
+          }
+        },
+        "conclusion": [
+          {
+            "action": "theFactoidWHQuestionIsAttachedToTheMainVerbOfTheSentence",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "theSubjectNPIsIdentified",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851f9",
+            "accomplish": false
+          },
+          {
+            "action": "returnGoalAccomplished",
+            "module": "cognignitiveModuleFunctions",
+            "idFS": "5c0844dbc11eb22594d851fa",
+            "accomplish": false
+          }
+        ]
+      }
+    }
+  ]
+}
